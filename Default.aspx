@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <!DOCTYPE html>
 
@@ -10,43 +10,14 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
-           <br /><br /> <h2>
-                Online Payment Application 
-            </h2>
-            <br /><hr />
             <br />
-            <div class="container">
-               <table>
-                   <tr>
-                       <td>UserID</td>
-                       <td>
-                           <asp:TextBox ID="TextBox1" runat="server" Class="form-control"></asp:TextBox>
-                       </td>
-                   </tr>
-
-                   <tr>
-                       <td>Password</td>
-                       <td>
-                           <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" Class="form-control"></asp:TextBox>
-                       </td>
-                   </tr>
-                   <tr>
-                       <td></td>
-                       <td>
-                           <asp:Button ID="Button1" runat="server" Text="Login" OnClick="check"  Class="form-control" />
-                       </td>
-                   </tr>
-               </table>
-                <br />
-                <br />
-                <a href="NewReg.aspx">Create New Account</a>
-                <br />
-                <a href="RecoverPass.aspx">Forget Password</a>
-            </div>
-             <br /><hr /><br /><br />
-                &copy;SohamGlobal.com<br />Developed in Microsoft.Net
+            <h2>Check Balance</h2>
+            <br />
+            <br />
+            <a style="color:purple">YesBank Always with us.....</a>
+            <br /><hr /><br />
+            <a href="SearchBalance.asmx">check Balance</a>
         </div>
-
     </form>
 </body>
 </html>
